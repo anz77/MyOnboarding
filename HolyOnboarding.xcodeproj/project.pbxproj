@@ -10,6 +10,12 @@
 		B289EC1B269DF0F600650B7A /* HolyOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B289EC11269DF0F600650B7A /* HolyOnboarding.framework */; };
 		B289EC20269DF0F600650B7A /* HolyOnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289EC1F269DF0F600650B7A /* HolyOnboardingTests.swift */; };
 		B289EC22269DF0F600650B7A /* HolyOnboarding.h in Headers */ = {isa = PBXBuildFile; fileRef = B289EC14269DF0F600650B7A /* HolyOnboarding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B289EC32269DF25C00650B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289EC31269DF25C00650B7A /* AppDelegate.swift */; };
+		B289EC34269DF25C00650B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289EC33269DF25C00650B7A /* SceneDelegate.swift */; };
+		B289EC36269DF25C00650B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289EC35269DF25C00650B7A /* ViewController.swift */; };
+		B289EC39269DF25C00650B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289EC37269DF25C00650B7A /* Main.storyboard */; };
+		B289EC3B269DF25D00650B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B289EC3A269DF25D00650B7A /* Assets.xcassets */; };
+		B289EC3E269DF25D00650B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289EC3C269DF25D00650B7A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		B289EC1A269DF0F600650B7A /* HolyOnboardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolyOnboardingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289EC1F269DF0F600650B7A /* HolyOnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolyOnboardingTests.swift; sourceTree = "<group>"; };
 		B289EC21269DF0F600650B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B289EC2F269DF25C00650B7A /* HolyOnboardingExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolyOnboardingExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B289EC31269DF25C00650B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B289EC33269DF25C00650B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B289EC35269DF25C00650B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B289EC38269DF25C00650B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B289EC3A269DF25D00650B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B289EC3D269DF25D00650B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B289EC3F269DF25D00650B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B289EC2C269DF25C00650B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				B289EC13269DF0F600650B7A /* HolyOnboarding */,
 				B289EC1E269DF0F600650B7A /* HolyOnboardingTests */,
+				B289EC30269DF25C00650B7A /* HolyOnboardingExamples */,
 				B289EC12269DF0F600650B7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				B289EC11269DF0F600650B7A /* HolyOnboarding.framework */,
 				B289EC1A269DF0F600650B7A /* HolyOnboardingTests.xctest */,
+				B289EC2F269DF25C00650B7A /* HolyOnboardingExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				B289EC21269DF0F600650B7A /* Info.plist */,
 			);
 			path = HolyOnboardingTests;
+			sourceTree = "<group>";
+		};
+		B289EC30269DF25C00650B7A /* HolyOnboardingExamples */ = {
+			isa = PBXGroup;
+			children = (
+				B289EC31269DF25C00650B7A /* AppDelegate.swift */,
+				B289EC33269DF25C00650B7A /* SceneDelegate.swift */,
+				B289EC35269DF25C00650B7A /* ViewController.swift */,
+				B289EC37269DF25C00650B7A /* Main.storyboard */,
+				B289EC3A269DF25D00650B7A /* Assets.xcassets */,
+				B289EC3C269DF25D00650B7A /* LaunchScreen.storyboard */,
+				B289EC3F269DF25D00650B7A /* Info.plist */,
+			);
+			path = HolyOnboardingExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = B289EC1A269DF0F600650B7A /* HolyOnboardingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B289EC2E269DF25C00650B7A /* HolyOnboardingExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B289EC40269DF25D00650B7A /* Build configuration list for PBXNativeTarget "HolyOnboardingExamples" */;
+			buildPhases = (
+				B289EC2B269DF25C00650B7A /* Sources */,
+				B289EC2C269DF25C00650B7A /* Frameworks */,
+				B289EC2D269DF25C00650B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolyOnboardingExamples;
+			productName = HolyOnboardingExamples;
+			productReference = B289EC2F269DF25C00650B7A /* HolyOnboardingExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					B289EC19269DF0F600650B7A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B289EC2E269DF25C00650B7A = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				B289EC10269DF0F600650B7A /* HolyOnboarding */,
 				B289EC19269DF0F600650B7A /* HolyOnboardingTests */,
+				B289EC2E269DF25C00650B7A /* HolyOnboardingExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B289EC2D269DF25C00650B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B289EC3E269DF25D00650B7A /* LaunchScreen.storyboard in Resources */,
+				B289EC3B269DF25D00650B7A /* Assets.xcassets in Resources */,
+				B289EC39269DF25C00650B7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B289EC2B269DF25C00650B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B289EC36269DF25C00650B7A /* ViewController.swift in Sources */,
+				B289EC32269DF25C00650B7A /* AppDelegate.swift in Sources */,
+				B289EC34269DF25C00650B7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = B289EC1C269DF0F600650B7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B289EC37269DF25C00650B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B289EC38269DF25C00650B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B289EC3C269DF25D00650B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B289EC3D269DF25D00650B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B289EC23269DF0F600650B7A /* Debug */ = {
@@ -422,6 +519,44 @@
 			};
 			name = Release;
 		};
+		B289EC41269DF25D00650B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 433Y8LVG66;
+				INFOPLIST_FILE = HolyOnboardingExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = az.HolyOnboardingExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B289EC42269DF25D00650B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 433Y8LVG66;
+				INFOPLIST_FILE = HolyOnboardingExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = az.HolyOnboardingExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +583,15 @@
 			buildConfigurations = (
 				B289EC29269DF0F600650B7A /* Debug */,
 				B289EC2A269DF0F600650B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B289EC40269DF25D00650B7A /* Build configuration list for PBXNativeTarget "HolyOnboardingExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B289EC41269DF25D00650B7A /* Debug */,
+				B289EC42269DF25D00650B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
